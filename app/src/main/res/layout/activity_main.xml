@@ -8,23 +8,16 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:background="#FFDDDD">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/colorAccent"
-            android:layout_margin="5dp"
-            android:text="TextView - 1" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/colorAccent"
-            android:layout_margin="5dp"
-            android:text="TextView - 2" />
+            android:background="@color/cerise"
+            android:layout_margin="20dp"
+            android:text="Everyone loves widgets!" />
     </LinearLayout>
 
     <LinearLayout
@@ -32,19 +25,17 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:background="#DDDDFF">
-        <TextView
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/colorAccent"
             android:layout_margin="5dp"
             android:text="TextView - 3" />
 
-        <TextView
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/colorAccent"
-            android:layout_margin="5dp"
-            android:text="TextView - 4" />
+            android:src="@drawable/space" />
     </LinearLayout>
 
 </LinearLayout>
